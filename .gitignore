@@ -1,0 +1,85 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Project specific exclusions
+# Keep only copyTwo.pdf and prima_weights.pth, exclude others
+data/311598_bak1_01062025235817.pdf
+data/311653_bak1_29052025014912.pdf
+data/312544_bak1_29052025014443.pdf
+data/333570_bak1_27052025180543.pdf
+data/334770_bak1_31052025182613.pdf
+data/334857_bak1_28052025114033.pdf
+data/334861_bak1_27052025132343.pdf
+data/334862_bak1_27052025180446.pdf
+data/334869_bak1_27052025175910.pdf
+data/334920_bak1_27052025175751.pdf
+data/334928_bak1_23052025153102.pdf
+data/334955_bak1_31052025000659.pdf
+data/334967_bak1_27052025180059.pdf
+data/339753_bak1_27052025175958.pdf
+data/three.pdf
+data/two.pdf
+
+# Model weights - keep only prima_weights.pth
+weights/hj_weights.pth
+weights/large.pth
+weights/medium.pth
+
+# Analysis results (uncomment if you don't want to track these)
+# notebooks/analysis_results.json
+# notebooks/quality_report.txt
+# notebooks/images/
