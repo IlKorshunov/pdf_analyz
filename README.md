@@ -30,7 +30,7 @@
 1. **Клонируйте репозиторий:**
 ```bash
 git clone <repository-url>
-cd summerPrac
+cd pdf_analyz
 ```
 
 2. **Создайте виртуальное окружение:**
@@ -44,8 +44,8 @@ source venv310/bin/activate
 pip install -r requirements.txt
 ```
 
-4. **Скачайте веса моделей** (поместите в папку `weights/`):
-   - `large.pth` - для модели PubLayNet
+4. **[Скачайте веса моделей](https://layout-parser.readthedocs.io/en/latest/notes/modelzoo.html)** (поместите в папку `weights/`): 
+  - `large.pth` - для модели PubLayNet
    - `prima_weights.pth` - для модели PrimaLayout
    - `hj_weights.pth` - для модели HJDataset
 
